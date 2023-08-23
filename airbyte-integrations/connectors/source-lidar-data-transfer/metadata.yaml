@@ -1,0 +1,25 @@
+data:
+  allowedHosts:
+    hosts:
+      - TODO # Please change to the hostname of the source.
+  registries:
+    oss:
+      enabled: false
+    cloud:
+      enabled: false
+  connectorSubtype: api
+  connectorType: source
+  definitionId: 8adce8bf-2654-4160-99a7-e5ae4b26ab04
+  dockerImageTag: 0.1.0
+  dockerRepository: airbyte/source-lidar-data-transfer
+  githubIssueLabel: source-lidar-data-transfer
+  icon: lidar-data-transfer.svg
+  license: MIT
+  name: Lidar Data Transfer
+  releaseDate: TODO
+  supportLevel: community
+  releaseStage: alpha
+  documentationUrl: https://docs.airbyte.com/integrations/sources/lidar-data-transfer
+  tags:
+    - language:python
+metadataSpecVersion: "1.0"
